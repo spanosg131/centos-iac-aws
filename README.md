@@ -3,7 +3,7 @@ CentOS 8 based Docker image with common IaC tools and AWS CLI. The purpose image
 
 ## Tools Included
 * Ansible
-* AWS CLI
+* AWS CLI version 2
 * HashiCorp Terraform
 
 ## Image Build
