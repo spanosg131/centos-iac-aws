@@ -14,9 +14,9 @@ docker build . -t centos-iac-aws:1.0.0
 ## Creating a Container
 ### Basic Execution
 ```
-docker run -it --rm -v /path/to/project:/target/path centos-iac-aws:1.0.0 /bin/bash
+docker run -it --rm -v /path/to/project:/target/path centos-iac-aws:1.0.0
 ```
 ### Sample Shell Alias
 ```
-alias iac-aws="docker run -it --rm -v $(pwd):/working_project centos-iac-aws:1.0.0 /bin/bash"
+alias iac-aws="docker run -it --rm -v $(pwd):/working_project centos-iac-aws:1.0.0"
 ```
